@@ -138,7 +138,7 @@ For each node to triage:
 [inbox] ← source-node-id
 ├── science of achievement vs art of fulfillment
 ├── try get shit done plugin
-└── Ian (meeting notes about Maven Machines)
+└── John (meeting notes)
 ```
 
 ### After Phase 1
@@ -155,22 +155,22 @@ For each node to triage:
 │   ├── target: [in the next 7 days](link)
 │   ├── reason: actionable task to try a productivity tool
 │   └── alternative targets: [use skills](link)
-└── [Ian](c19f) -> [care for, mate, partner, invest]
-    ├── Ian (meeting notes about Maven Machines)
-    ├── target: [care for, mate, partner, invest](link)
+└── [John](c19f) -> [care for, partner, invest]
+    ├── John (meeting notes)
+    ├── target: [care for, partner, invest](link)
     ├── reason: developing a business relationship
     └── alternative targets: [grow understanding](link), [partner](link)
 ```
 
 ### After User Review
 
-User moved "Ian" under the alternative suggestion, deleted the primary. User accepted other suggestions.
+User moved "John" under the alternative suggestion, deleted the primary. User accepted other suggestions.
 
 ### Phase 3 Output
 
 ```
 Observed patterns:
-- You moved "Ian" to "grow > grow understanding" instead of "reproduce > care for..."
+- You moved "John" to "grow > grow understanding" instead of "reproduce > care for..."
 - This suggests meeting notes should prioritize learning over relationship-building
 
 Proposed rule update:

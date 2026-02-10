@@ -48,11 +48,11 @@ Each proposal looks like:
 
 ```
 [source node]
-├── [node name](id) -> [target name]
-│   ├── [original node] ← moved here
+├── "original node text..." -> [link to target location]
+│   ├── [original node]
 │   ├── target: [link to proposed location]
-│   ├── reason: [why this location fits]
-│   └── alternative targets: [other options]
+│   ├── reason: "why this location fits"
+│   └── alternative targets: [link to other locations]
 ```
 
 ### Phase 2: User Review
