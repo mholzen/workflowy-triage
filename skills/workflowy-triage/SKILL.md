@@ -185,22 +185,16 @@ The rules node should contain children structured as:
 
 ```
 [rules for triage]
-├── links and references → metabolize > store > resources
-├── philosophical insights → respond > remember, ponder, reflect
-├── actionable tasks → plan > in the next 7 days
-├── meeting notes → grow > grow understanding, experience
-├── business relationships → reproduce > care for, mate, partner, invest
-├── technical research → create > research scientifically
-├── creative production → create > create
-├── attention/focus principles → structure > attend to, focus
-├── tool configurations → structure > know structure > things, objects
-└── customer interactions → reproduce > add to, foster, promote, empower
+├── find the deepest most applicable node under synthesize
+├── before finalizing a location, always call workflowy_get on it to see its children
+│   └── only stop when the node is a leaf or no children match the item's content
 ```
 
-Each rule is a simple pattern → location mapping. Rules can include:
-- Keywords to match
-- Node structure patterns (e.g., "has children", "contains link")
-- Context hints
+Each rule guides how to find the best location. The triage process should:
+1. Start from broad categories and drill down
+2. For each candidate location, fetch its children with `workflowy_get`
+3. Check if any child is a better match for the item's content
+4. Continue recursively until reaching a leaf node or no children match
 
 ## Error Handling
 
