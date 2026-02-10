@@ -1,6 +1,6 @@
 {
   "name": "workflowy-triage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "Claude Code skill that triages Workflowy nodes by proposing locations based on rules",
   "bin": {
